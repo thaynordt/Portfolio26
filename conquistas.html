@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquistas</title>
+    <link rel="stylesheet" href="projetoescolar.css">
+         <link rel="icon" type="image/png" sizes="32x32" href="fotos/logo thay.png">
+    <link rel="shortcut icon" href="fotos/logo thay.png" type="image/png">
+
+</head>
+<body>
+    
+     <div class="container">
+            <div class="logo"><img src="fotos/logo thay.png" alt="Thaylla logo"></div>
+        <nav aria-label="Navegação principal">
+            <a href="index.html">INÍCIO</a> <span>|</span>
+            <a href="#infos1">SOBRE</a> <span>|</span>
+            <a href="projetos.html">PROJETOS</a> <span>|</span>
+             <a href="certificado.html">CERTIFICADOS</a> <span>|</span>
+
+        </nav>
+        </div>
+
+        <div class="hero">
+    <h1 class="hero-title">Conquistas</h1>
+    <p class="hero-sub">Algumas conquistas (Medalhas) que adqueri até aqui.</p>
+</div>
+ 
+<div class="projetos">
+ 
+    <div class="item">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/canguru.jpg" alt="canguru"></div>
+            <div class="sub-bloco">
+            </div>
+        </div>
+        <div class="col-texto">
+            <p class="item-desc">O Concurso Canguru é a maior competição internacional de Matemática do mundo, aberta a estudantes do 3º ano do Fundamental I ao 3º ano do Ensino Médio. Criado na França, acontece em mais de 100 países e reúne milhões de alunos, com desafios que estimulam o raciocínio lógico e despertam o gosto pela Matemática.</p>
+        </div>
+    </div>
+ 
+    <div class="item flip">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/torneio sesi educação.jpg" alt=""></div>
+            <div class="sub-bloco">
+            </div>
+        </div>
+        <div class="col-texto">
+            <p class="item-desc">O Festival SESI de Educação é um dos maiores eventos de robótica e tecnologia da América Latina, celebrando a aprendizagem inovadora e estimulando habilidades STEAM (ciência, tecnologia, engenharia, artes e matemática) em estudantes de 9 a 19 anos.</p>
+        </div>
+    </div>
+ 
+    <div class="item">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/torneio.jpg" alt=""></div>
+            <div class="sub-bloco">
+            </div>
+        </div>
+        <div class="col-texto">
+            <p class="item-desc">Minhas identificações utilizadas nos eventos do SESI, representando momentos importantes da minha trajetória estudantil. Entre elas, estão os crachás do Torneio SESI de Robótica e do Festival SESI de Educação, onde participei como integrante da Team Curie. Esses materiais simbolizam experiências marcantes de aprendizado, inovação, trabalho em equipe e desenvolvimento em competições educacionais.</p>
+        </div>
+    </div>
+ 
+    <div class="item flip">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/patrimoniohis.jpg" alt=""></div>
+            <div class="sub-bloco">
+                <div class="sub-imgs-row">
+                </div>
+            </div>
+        </div>
+        <div class="col-texto">
+            <p class="item-desc">Identificação utilizada na Mostra STEAM da Escola SESI, evento voltado à apresentação de projetos que integram ciência, tecnologia, engenharia, artes e matemática. No crachá, consta minha participação como aluna no projeto “Patrimônio Histórico Cultural”, representando uma experiência importante de aprendizado, criatividade, pesquisa e desenvolvimento acadêmico.</p>
+        </div>
+    </div>
+ 
+ 
+<script>
+    const lightbox  = document.getElementById('lightbox');
+    const lbContent = document.getElementById('lb-content');
+    const lbClose   = document.getElementById('lb-close');
+ 
+    function openLightbox(el) {
+        const imgEl = el.querySelector('img');
+        const emoji = el.getAttribute('data-emoji');
+ 
+        lbContent.innerHTML = '';
+ 
+        if (imgEl) {
+            const img = document.createElement('img');
+            img.src = imgEl.src;
+            img.alt = imgEl.alt || '';
+            lbContent.appendChild(img);
+        } else {
+            const div = document.createElement('div');
+            div.className = 'lb-emoji';
+            div.textContent = emoji || '🖼️';
+            lbContent.appendChild(div);
+        }
+ 
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+ 
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+ 
+    // LÓGICA ADICIONADA: Trocar a foto miniatura pela principal
+    document.querySelectorAll('.sub-img').forEach(el => {
+        el.addEventListener('click', function() {
+            // Pega o contêiner do projeto atual
+            const item = this.closest('.item');
+            
+            // Pega as tags <img> da foto principal e da miniatura clicada
+            const imgPrincipal = item.querySelector('.foto-principal img');
+            const imgMin = this.querySelector('img');
+
+            if (imgPrincipal && imgMin) {
+                // Guarda os dados da principal temporariamente
+                const tempSrc = imgPrincipal.src;
+                const tempAlt = imgPrincipal.alt;
+                
+                // A principal recebe os dados da miniatura
+                imgPrincipal.src = imgMin.src;
+                imgPrincipal.alt = imgMin.alt;
+                
+                // A miniatura recebe os dados antigos da principal
+                imgMin.src = tempSrc;
+                imgMin.alt = tempAlt;
+            }
+        });
+    });
+ 
+    document.querySelectorAll('.foto-principal').forEach(el => {
+        el.addEventListener('click', () => openLightbox(el));
+    });
+ 
+    lbClose.addEventListener('click', closeLightbox);
+ 
+    lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) closeLightbox();
+    });
+ 
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+</script>
+ 
+
+    </header>
+
+    <main id="inicio">
+        <div class="bg-gradient"></div>
+        <div class="mouse-glow" id="mouseGlow"></div>

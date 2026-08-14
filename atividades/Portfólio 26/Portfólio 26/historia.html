@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanas</title>
+    <link rel="stylesheet" href="historia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mouse-glow" id="mouseGlow"></div>
+
+    <header>
+       <div class="container">
+            <div class="logo"><img src="fotos/logo thay.png" alt="Thaylla logo"></div>
+        <nav aria-label="Navegação principal">
+            <a href="index.html">INÍCIO</a> <span>|</span>
+            <a href="sobre.html">SOBRE</a> <span>|</span>
+            <a href="projetos.html">PROJETOS</a> <span>|</span>
+             <a href="certificado.html">CERTIFICADOS</a> <span>|</span>
+
+        </nav>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <header class="section-header">
+            <h1>Minhas atividades</h1>
+        </header>
+
+        <div class="filter-box">
+            <div class="filter-row">
+                <span class="label">Você está na matéria:</span>
+                <div class="tags">
+                    <span class="tag-subject">Humanas</span>
+                </div>
+            </div>
+
+            <div class="filter-row">
+                <span class="label">Trimestre:</span>
+                <div class="buttons" id="triFilterContainer">
+                    <button class="btn-tri active" data-tri="todos">Todos</button>
+                    <button class="btn-tri" data-tri="1">1º Tri</button>
+                    <button class="btn-tri" data-tri="2">2º Tri</button>
+                    <button class="btn-tri" data-tri="3">3º Tri</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid" id="activitiesGrid">
+            <div class="card" data-trimestre="1">
+                <span class="card-category">1º Trimestre</span>
+                <h3>A Grande Guerra - Reino Unido</h3>
+                <p>Refletir sobre os meios de comunicação no início do século XX e criar a capa de um jornal da época, seguindo seu padrão.</p>
+                <button class="open-btn" onclick="openDetails('atividade1')">Ver detalhes ➔</button>
+            </div>
+
+            <div class="card" data-trimestre="1">
+                <span class="card-category">1º Trimestre</span>
+                <h3>Geopolítica</h3>
+                <p>Em grupos, criamos uma apresentação sobre um país de livre escolha, seguindo o modelo em anexo. Meu grupo escolheu Japão e Nova Zelândia.</p>
+                <button class="open-btn" onclick="openDetails('atividade2')">Ver detalhes ➔</button>
+            </div>
+
+             <div class="card" data-trimestre="1">
+                <span class="card-category">1º Trimestre</span>
+                <h3>Imperialismo no séc. XIX </h3>
+                <p>Nós escolhemos um país colonizado e apresentamos sua trajetória por imagens, mostrando o antes, o processo de colonização, as mudanças, a independência e a situação atual.</p>
+                <button class="open-btn" onclick="openDetails('atividade3')">Ver detalhes ➔</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="fullScreenModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-x" onclick="closeDetails()">&times;</button>
+            
+            <div class="modal-layout">
+                <div class="modal-image-container">
+                    <img id="modalImage" src="" alt="Imagem da Tarefa">
+                </div>
+
+                <div class="modal-info">
+                    <h2 id="modalTitle">Nome da Atividade</h2>
+                    <p class="modal-group"><strong>Grupo:</strong> <span id="modalGroup"></span></p>
+                    
+                    <div class="modal-section">
+                        <h4>Descrição</h4>
+                        <p id="modalDesc"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h4>Competências</h4>
+                        <ul id="modalComp"></ul>
+                    </div>
+
+                    <a id="modalLink" href="#" target="_blank" class="external-link">Acessar Tarefa Externamente</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="historia.js"></script>
+</body>
+</html>

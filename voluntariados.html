@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voluntariados</title>
+    <link rel="stylesheet" href="projetoescolar.css">
+     <link rel="icon" type="image/png" sizes="32x32" href="fotos/logo thay.png">
+    <link rel="shortcut icon" href="fotos/logo thay.png" type="image/png">
+
+</head>
+<body>
+
+    
+
+     <div class="container">
+            <div class="logo"><img src="fotos/logo thay.png" alt="Thaylla logo"></div>
+        <nav aria-label="Navegação principal">
+            <a href="index.html">INÍCIO</a> <span>|</span>
+            <a href="#infos1">SOBRE</a> <span>|</span>
+            <a href="projetos.html">PROJETOS</a> <span>|</span>
+             <a href="certificado.html">CERTIFICADOS</a> <span>|</span>
+
+        </nav>
+        </div>
+
+        <div class="hero">
+    <h1 class="hero-title">Voluntariados</h1>
+    <p class="hero-sub">Participar de voluntariados é transformar tempo e dedicação em impacto real na vida de outras pessoas.</p>
+</div>
+ 
+<div class="projetos">
+ 
+    <div class="item">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/voluntariado.jpg" alt="mundo senai"></div>
+            <div class="sub-bloco">
+                <span class="sub-label">mais imagens desse dia</span>
+                <div class="sub-imgs-row">
+                    <div class="sub-img"><img src="fotos/voluntariado2.jpg" alt=""></div>
+                    <div class="sub-img"><img src="fotos/voluntariado3.jpg" alt=""></div>
+                    <div class="sub-img"><img src="fotos/voluntariado4.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Mina Tech</h2>
+            <p class="item-desc">Minatech é um programa educativo, totalmente gratuito, organizado e executado pelas ONGs Corali e Engenheiros Sem Fronteiras. O programa visa despertar o interesse de jovens de escolas públicas pelas áreas de engenharia e tecnologia. É voltado para o público de 13 a 18 anos ou para quem ainda está em fase de escolha profissional.
+
+No Minatech, estivemos presentes para compartilhar conhecimentos sobre o funcionamento da Team Curie, mostrando que nosso time era composto por mulheres na engenharia e que essa área é um ótimo caminho a ser seguido.</p>
+        </div>
+    </div>
+ 
+    <div class="item flip">
+        <div class="col-foto">
+            <div class="foto-principal"> <iframe width="360" height="315" src="https://www.youtube.com/embed/IR9YA5ytj1E?si=dAkRmbZHaxL0WAne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+            <div class="sub-bloco">
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Jurere Open</h2>
+            <p class="item-desc">No Jurerê Open, fizemos um trabalho voluntário no qual tivemos dois espaços: um de máquinas 3D e outro sobre a Curie.Na área de máquinas 3D, deixamos o espaço aberto para todos que quisessem participar e demos aulas para crianças e adolescentes sobre como usar uma máquina 3D e como criar seu próprio projeto. Quando terminavam, ensinávamos como imprimir o modelo desenvolvido por eles, transformando criatividade em realidade e permitindo que levassem sua criação para casa.</p>
+        </div>
+    </div>
+ 
+    <div class="item">
+        <div class="col-foto">
+            <div class="foto-principal"> <iframe width="360" height="315" src="https://www.youtube.com/embed/pnd5YFHdLT0?si=byIaHQX3jDUfiZyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+            <div class="sub-bloco">
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Novos Camminhos</h2>
+            <p class="item-desc"> Novos Caminhos está, desde 2013, transformando a realidade de crianças e adolescentes dos serviços de acolhimento para que alcancem uma vida digna e autônoma. Nosso papel nessa trajetória foi ministrar aulas sobre diversos assuntos, entre eles marketing, educação financeira e modelagem 3D. Nessas atividades, explicávamos o conteúdo e propúnhamos tarefas para que eles pudessem visualizar o próprio trabalho diante deles, transformando ideias em algo físico. Foi maravilhoso ver crianças e adolescentes engajados em nossas aulas, buscando aprender cada vez mais e, quem sabe, seguir futuramente em alguma dessas áreas. </p>
+        </div>
+    </div>
+ 
+<script>
+    const lightbox  = document.getElementById('lightbox');
+    const lbContent = document.getElementById('lb-content');
+    const lbClose   = document.getElementById('lb-close');
+ 
+    function openLightbox(el) {
+        const imgEl = el.querySelector('img');
+        const emoji = el.getAttribute('data-emoji');
+ 
+        lbContent.innerHTML = '';
+ 
+        if (imgEl) {
+            const img = document.createElement('img');
+            img.src = imgEl.src;
+            img.alt = imgEl.alt || '';
+            lbContent.appendChild(img);
+        } else {
+            const div = document.createElement('div');
+            div.className = 'lb-emoji';
+            div.textContent = emoji || '🖼️';
+            lbContent.appendChild(div);
+        }
+ 
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+ 
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+ 
+    // LÓGICA ADICIONADA: Trocar a foto miniatura pela principal
+    document.querySelectorAll('.sub-img').forEach(el => {
+        el.addEventListener('click', function() {
+            // Pega o contêiner do projeto atual
+            const item = this.closest('.item');
+            
+            // Pega as tags <img> da foto principal e da miniatura clicada
+            const imgPrincipal = item.querySelector('.foto-principal img');
+            const imgMin = this.querySelector('img');
+
+            if (imgPrincipal && imgMin) {
+                // Guarda os dados da principal temporariamente
+                const tempSrc = imgPrincipal.src;
+                const tempAlt = imgPrincipal.alt;
+                
+                // A principal recebe os dados da miniatura
+                imgPrincipal.src = imgMin.src;
+                imgPrincipal.alt = imgMin.alt;
+                
+                // A miniatura recebe os dados antigos da principal
+                imgMin.src = tempSrc;
+                imgMin.alt = tempAlt;
+            }
+        });
+    });
+ 
+    document.querySelectorAll('.foto-principal').forEach(el => {
+        el.addEventListener('click', () => openLightbox(el));
+    });
+ 
+    lbClose.addEventListener('click', closeLightbox);
+ 
+    lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) closeLightbox();
+    });
+ 
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+</script>
+ 
+
+    </header>
+
+    <main id="inicio">
+        <div class="bg-gradient"></div>
+        <div class="mouse-glow" id="mouseGlow"></div>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=BJ+Cree:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg-base: #fef7e7;
+    --bg-glow: #fcf8f1;
+    --text-main: rgba(162, 53, 62, 0.9);
+    --text-nav: rgba(140, 118, 118, 0.8);
+    --header-bg: rgba(19, 3, 3, 0.7); /* Atualizado para transparência */
+    --btn-bg: rgba(30, 5, 8, 0.5);
+    --btn-glow-color: rgba(200, 40, 50, 0.4);
+    --btn-border: rgba(150, 30, 40, 0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Aprimoramento funcional: Rolagem suave */
+}
+
+body {
+    background-color: var(--bg-base);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* Foco acessível para navegação por teclado */
+:focus-visible {
+    outline: 2px solid var(--text-main);
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+/* =========================================
+   HEADER & NAVEGAÇÃO
+   ========================================= */
+header {
+    background-color: var(--header-bg);
+    padding: 12px 30px;
+    position: sticky; /* Aprimoramento: Fixa no topo se rolar a página */
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px); /* Aprimoramento: Efeito Glassmorphism */
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.container{
+    display: flex;
+}
+
+nav a{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    color: rgba(139, 44, 52, 0.9);
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    cursor: default;
+}
+
+.logo img{
+    width: 40PX;
+}
+
+nav {
+    display: flex;
+    gap: 12px;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--text-nav);
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+/* Aprimoramento: Sublinhado animado no hover do menu */
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #d1b8b8;
+    transform: scaleX(0);
+    transform-origin: bottom center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+nav a:hover {
+    color: #d1b8b8;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+nav span {
+    color: rgba(140, 118, 118, 0.3);
+    user-select: none; /* Aprimoramento: Evita que o "|" seja selecionado */
+}
+
+.container{
+    background-color: #250303;
+}
+
+.foto {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem na horizontal (esquerda/direita) */
+    align-items: center;     /* Centraliza na vertical (cima/baixo, caso a div tenha altura fixa) */
+    width: 100%;             /* Garante que a div tenha espaço para centralizar a imagem */
+}
+
+/* Dica extra de responsividade para a imagem não quebrar em celulares */
+.foto img {
+    max-width: 100%; 
+    height: auto;
+    width: 60%;
+}

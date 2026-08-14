@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos escolares</title>
+    <link rel="stylesheet" href="projetoescolar.css">
+         <link rel="icon" type="image/png" sizes="32x32" href="fotos/logo thay.png">
+    <link rel="shortcut icon" href="fotos/logo thay.png" type="image/png">
+
+</head>
+<body>
+    
+     <div class="container">
+            <div class="logo"><img src="fotos/logo thay.png" alt="Thaylla logo"></div>
+        <nav aria-label="Navegação principal">
+            <a href="index.html">INÍCIO</a> <span>|</span>
+            <a href="#infos1">SOBRE</a> <span>|</span>
+            <a href="projetos.html">PROJETOS</a> <span>|</span>
+             <a href="certificado.html">CERTIFICADOS</a> <span>|</span>
+
+        </nav>
+        </div>
+
+        <div class="hero">
+    <h1 class="hero-title">Projetos Escolares</h1>
+    <p class="hero-sub">Alguns projetos que participei durante meus 3 anos no Sesi Senai</p>
+</div>
+ 
+<div class="projetos">
+ 
+    <div class="item">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/mundosenai.jpg" alt="mundo senai"></div>
+            <div class="sub-bloco">
+                <span class="sub-label">mais imagens desse dia</span>
+                <div class="sub-imgs-row">
+                    <div class="sub-img"><img src="fotos/mundosenai2.jpg" alt=""></div>
+                    <div class="sub-img"><img src="fotos/mundosenai3.jpg" alt=""></div>
+                    <div class="sub-img"><img src="fotos/mundosenai4.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Mundo Senai</h2>
+            <p class="item-desc">Mundo SENAI, <strong> um evento que abre as portas da escola para que outras instituições e empresas conheçam de perto o universo do SENAI. </strong>  Foi um momento incrível para apresentar os projetos desenvolvidos pelos alunos do curso técnico em Desenvolvimento de Sistemas, compartilhar experiências e mostrar como a tecnologia transforma ideias em soluções reais.</p>
+        </div>
+    </div>
+ 
+    <div class="item flip">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/salaodoestudante.jpg" alt=""></div>
+            <div class="sub-bloco">
+                <span class="sub-label">mais imagens desse dia</span>
+                <div class="sub-imgs-row">
+                    <div class="sub-img"><img src="fotos/salaodoestudante2.jpg" alt=""></div>
+                    <div class="sub-img"><img src="fotos/salaodoestudante3.jpg" alt=""></div>
+                    <div class="sub-img"><img src="fotos/salaodoestudante4.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Salão do Estudante</h2>
+            <p class="item-desc">Fomos no The Salão do Estudante 2025 <strong>no Majestic Palace Hotel</strong> e a experiência foi realmente enriquecedora. O evento contou com estandes de diversos países, universidades e programas acadêmicos, permitindo explorar caminhos de formação internacional de forma prática e direta. Fiquei muito grata por ter vivenciado tudo isso.</p>
+        </div>
+    </div>
+ 
+    <div class="item">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/patrimonio.png" alt=""></div>
+            <div class="sub-bloco">
+                <span class="sub-label">mais imagens desse dia</span>
+                <div class="sub-imgs-row">
+                    <div class="sub-img"><img src="fotos/patrimonio2.png" alt=""></div>
+                    <div class="sub-img"><img src="fotos/patrimonio3.png" alt=""></div>
+                    <div class="sub-img"><img src="fotos/patrimonio4.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Projeto Patrimonio Histórico</h2>
+            <p class="item-desc">Nossa sala do <strong>primeiro ano do ensino médio</strong> foi indicada para participar do walking tour, cada equipe criou um roteiro para ser realizado a pé na região da Lagoa da Conceição. Após elaborar os roteiros individuais e discutir nossas ideias, começamos a desenvolver um roteiro final. Conhecemos as rendeiras, obras e também a comida maravilhosa da região.</p>
+        </div>
+    </div>
+ 
+    <div class="item flip">
+        <div class="col-foto">
+            <div class="foto-principal"> <img src="fotos/apresentacaosalas.png" alt=""></div>
+            <div class="sub-bloco">
+                <span class="sub-label">mais imagens desse dia</span>
+                <div class="sub-imgs-row">
+                    <div class="sub-img"><img src="fotos/apresentacaosalas2.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-texto">
+            <h2 class="item-title">Apresentação de Fundamentos de Hardwares e Softwares</h2>
+            <p class="item-desc">No <strong>segundo ano do ensino médio </strong>desenvolvemos um trabalho na disciplina de Fundamentos de Hardwares e Softwares, onde nós tinham a missão de escolher um hardware essencial para o funcionamento do computador e reproduzi-lo em uma maquete ampliada com materiais reciclados. Para trabalhar as habilidades de software, nós utilizaram softwares de modelagem 3D para idealizar as maquetes e ferramentas de apresentação para explicar o desenvolvimento do trabalho e a funcionalidade do hardware aos estudantes do 1º ano, com o objetivo de reforçar e compartilhar esse conhecimento.</p>
+        </div>
+    </div>
+ 
+ 
+<script>
+    const lightbox  = document.getElementById('lightbox');
+    const lbContent = document.getElementById('lb-content');
+    const lbClose   = document.getElementById('lb-close');
+ 
+    function openLightbox(el) {
+        const imgEl = el.querySelector('img');
+        const emoji = el.getAttribute('data-emoji');
+ 
+        lbContent.innerHTML = '';
+ 
+        if (imgEl) {
+            const img = document.createElement('img');
+            img.src = imgEl.src;
+            img.alt = imgEl.alt || '';
+            lbContent.appendChild(img);
+        } else {
+            const div = document.createElement('div');
+            div.className = 'lb-emoji';
+            div.textContent = emoji || '🖼️';
+            lbContent.appendChild(div);
+        }
+ 
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+ 
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+ 
+    // LÓGICA ADICIONADA: Trocar a foto miniatura pela principal
+    document.querySelectorAll('.sub-img').forEach(el => {
+        el.addEventListener('click', function() {
+            // Pega o contêiner do projeto atual
+            const item = this.closest('.item');
+            
+            // Pega as tags <img> da foto principal e da miniatura clicada
+            const imgPrincipal = item.querySelector('.foto-principal img');
+            const imgMin = this.querySelector('img');
+
+            if (imgPrincipal && imgMin) {
+                // Guarda os dados da principal temporariamente
+                const tempSrc = imgPrincipal.src;
+                const tempAlt = imgPrincipal.alt;
+                
+                // A principal recebe os dados da miniatura
+                imgPrincipal.src = imgMin.src;
+                imgPrincipal.alt = imgMin.alt;
+                
+                // A miniatura recebe os dados antigos da principal
+                imgMin.src = tempSrc;
+                imgMin.alt = tempAlt;
+            }
+        });
+    });
+ 
+    document.querySelectorAll('.foto-principal').forEach(el => {
+        el.addEventListener('click', () => openLightbox(el));
+    });
+ 
+    lbClose.addEventListener('click', closeLightbox);
+ 
+    lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) closeLightbox();
+    });
+ 
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+</script>
+ 
+
+    </header>
+
+    <main id="inicio">
+        <div class="bg-gradient"></div>
+        <div class="mouse-glow" id="mouseGlow"></div>

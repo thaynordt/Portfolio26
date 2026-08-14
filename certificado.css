@@ -1,0 +1,181 @@
+:root {
+    --bg-base: #fef7e7;
+    --vinho: #250303;
+    --vermelho: #a2353e;
+    --text-nav: rgba(140, 118, 118, 0.8);
+    --header-bg: rgba(37, 3, 3, 0.95);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-base);
+    color: var(--vinho);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* --- MANTENDO SEU HEADER --- */
+header {
+    background-color: var(--header-bg);
+    padding: 12px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+}
+.container { display: flex; align-items: center; background-color: transparent !important; }
+.logo img { width: 40px; }
+nav { display: flex; gap: 15px; margin-left: auto; align-items: center; }
+nav a {
+    color: var(--text-nav);
+    text-decoration: none;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+nav a:hover { color: #fff; }
+nav span { color: rgba(140, 118, 118, 0.3); }
+
+/* --- HERO SECTION CINEMATOGRÁFICA --- */
+.titulo {
+    display: flex;           /* Transforma a div em um container flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;     /* Centraliza o conteúdo verticalmente */
+    width: 100%;             /* A div ocupa a largura toda para poder centralizar */
+    margin: 20px 0;          /* Espaçamento opcional em cima e embaixo */
+}
+
+.titulo img {
+    margin-top: 5%;
+    width: 59%;              /* Aqui você controla o tamanho da "escrita" */
+    height: auto;            /* Mantém a proporção da imagem */
+}
+/* --- PROJETOS FEED --- */
+.projects-feed {
+    padding: 100px 10%;
+    background: linear-gradient(to bottom, #fef7e7, #f7ecd2);
+    margin-top: -90px;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 150px;
+}
+
+.project-row.reverse { flex-direction: row-reverse; }
+
+.project-image {
+    flex: 1.5;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-number {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Cinzel';
+    font-size: 4rem;
+    color: rgba(255,255,255,0.4);
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--vinho);
+    margin-bottom: 15px;
+}
+
+.view-btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #4b0a0a;
+    font-weight: 800;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #8a2c2c;
+    padding-bottom: 5px;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.view-btn:hover {
+    letter-spacing: 4px;
+    background: #531010;
+    color: white;
+}
+
+/* --- BENTO GRID (MOSAICO) --- */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    gap: 20px;
+}
+
+.bento-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.bento-item img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+
+.bento-item.tall { grid-row: span 2; }
+.bento-item.wide { grid-column: span 2; }
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(37, 3, 3, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bento-item:hover .overlay { opacity: 1; }
+.bento-item:hover img { transform: scale(1.1); }
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 768px) {
+    .hero-titles h1 { font-size: 3.5rem; }
+    .editorial-grid { grid-template-columns: 1fr; }
+    .float-img { display: none; }
+    .project-row { flex-direction: column !important; gap: 30px; }
+    .bento-grid { grid-template-columns: 1fr; }
+    .bento-item.wide { grid-column: span 1; }
+}
+
+/* Adicionar ao seu arquivo .css */
+.a4-fix img {
+    object-fit: contain !important; /* Exibe o certificado inteiro sem cortar */
+    background: white; /* Adiciona um fundo branco se a imagem for menor que o container */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Opcional: dá um efeito de papel */
+}
+
+.linha img {
+   width: 100%;
+    height: 10%; 
+    background-image: url('fotos/linha.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    
+    /* Ajuste este valor até ficar na altura desejada */
+    margin-top: -90px;
+}
