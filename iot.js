@@ -23,7 +23,7 @@ const dadosAtividades = {
 
     atividade3: {
         titulo: "Acender Led com Botão",
-        grupo: "Thaylla, Naiara e Carolina",
+        grupo: "Thaylla, Naiara e Carolina.",
         descricao: "Aprendemos a utilizar um push button com Arduino, simulando um circuito no Tinkercad para controlar um LED e entender como sinais físicos são transformados em comandos digitais.",
         competencias: ["Não foi informado"],
         // OLHA A MUDANÇA AQUI (agora aponta para a pasta 'atividades' em vez de 'fotos'):
