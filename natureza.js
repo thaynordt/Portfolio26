@@ -37,6 +37,48 @@ const dadosAtividades = {
         competencias: ["C1 - Compreender as ciências naturais e as tecnologias como construções humanas associadas à cultura dos povos e suas visões de mundo., H1 - Interpretar informações apresentadas em diferentes linguagens usadas nas Ciências, como texto discursivo, gráficos, tabelas, relações matemáticas, diagramas ou representação simbólica., C2 - Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da investigação científica., H7 - Compreender os conceitos relacionados à Química nos seus diferentes ramos: Fisico-química, Química orgânica e Química Geral., H9 - Explicar os conceitos de energia, matéria, vida e transformação para explicar fenômenos naturais e procedimentos tecnológicos., H11 - Empregar procedimentos e práticas de observação, levantamento de hipótese, experimentação, coleta de dados e conclusões para resolução de problemas relacionados às Ciências da Natureza., H12 - Relacionar informações para construir modelos em ciência e tecnologia."],
         imagem: "atividades/capa-eletro.png",
         link: "https://drive.google.com/file/d/15oeHrHjj5hluoobIC39-8Bu3a6rFA4ZW/view?usp=sharing"
+    },
+
+     atividade6: {
+        titulo: "SEMINÁRIO SOBRE ESTEQUIOMETRIA NA INDÚSTRIA",
+        grupo: "Thaylla, Naiara, Carolina, Marcus e Vitor",
+        descricao: "Nesta atividade, pesquisamos a aplicação da estequiometria na produção de ácido sulfúrico, destacando sua importância nos setores de fertilizantes e mineração. Também abordamos o processo de produção, o desenvolvimento industrial e a importância do controle das emissões atmosféricas.",
+        competencias: ["C2 - Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da investigação científica",
+"H6 - Compreender os conceitos relacionados à Física em seus diferentes ramos: Astronomia, Mecânica, Acústica, Óptica, Termologia, Calorimetria, Ondulatória, Eletricidade, Magnetismo e Física Moderna e Nuclear",
+"H7 - Compreender os conceitos relacionados à Química nos seus diferentes ramos: Físico-química, Química orgânica e Química Geral.",
+"H9 - Explicar os conceitos de energia, matéria, vida e transformação para explicar fenômenos naturais e procedimentos tecnológicos."],
+        imagem: "atividades/capa-estequiometria.png",
+        link: "https://www.canva.com/design/DAHNY_YlvaI/n9QKSm35WXR1jokGxdDuYQ/edit?utm_content=DAHNY_YlvaI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+
+     atividade5: {
+        titulo: "CARTILHA ELETRICIDADE E O CORPO HUMANO",
+        grupo: " Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, produzimos em grupo uma cartilha informativa sobre eletricidade e o corpo humano. Pesquisamos como a corrente elétrica interage com o organismo, seus efeitos e riscos, formas de prevenção de acidentes e aplicações da eletricidade na área da saúde. A cartilha foi organizada com textos, imagens, orientações de segurança, curiosidades e referências, utilizando uma linguagem clara e acessível.",
+        competencias: ["C1 - Compreender as ciências naturais e as tecnologias como construções humanas associadas à cultura dos povos e suas visões de mundo.",
+"H3 - Inferir significado de termos técnico-científicos em textos de instrumentação ou de divulgação científica.",
+"H4 - Identificar, em textos, diagramas, gráficos, imagens e tabelas, informações relevantes para compreender um fenômeno ou conceito.",
+"C2 - Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da investigação científica.",
+"H12 - Relacionar informações para construir modelos em ciência e tecnologia.",
+"C4 - Compreender o funcionamento dos organismos vivos em geral e o ser humano em especial, considerando suas relações com o ambiente em que vivem, abordando aspectos físicos e socioculturais.",
+"H23 - Formular propostas de alcance individual ou coletivo, utilizando como critérios a preservação e a promoção da saúde individual e coletiva."],
+        imagem: "atividades/capa-cartilha.png",
+        link: "https://www.canva.com/design/DAHPXLk4tP0/CYkllDlqK51eGgIgxfJcnA/edit"
+    },
+
+     atividade4: {
+        titulo: "Mural interativo",
+        grupo: "Thaylla e turma toda",
+        descricao: "Nesta atividade, participamos da criação de um mural científico interativo sobre a relação entre meio ambiente e saúde. Minha participação foi responsável pela criação e organização dos QR Codes, que ajudaram a tornar o mural mais interativo e facilitar o acesso às informações complementares.",
+        competencias: ["C2 –Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da investigação científica.",
+"H11 – Empregar procedimentos e práticas de observação, coleta de dados e conclusões para resolução de problemas relacionados às Ciências da Natureza.",
+"C3 – Determinar os impactos das ações humanas nos ambientes, identificando suas causas e propondo soluções para a sua redução.",
+"H15 – Comparar propostas de intervenção ambiental aplicando conhecimentos científicos e tecnológicos, observando os riscos e benefícios de sua implementação.",
+"H18 – Identificar situações de risco ambiental na cidade onde reside.",
+"C4 - Compreender o funcionamento dos organismos vivos em geral e o ser humano em especial, considerando suas relações com o ambiente em que vivem, abordando aspectos físicos e socioculturais.",
+"H23 – Formular propostas de alcance individual ou coletivo, utilizando como critérios a preservação e a promoção da saúde individual e coletiva."],
+        imagem: "atividades/capa-mural.png",
+        link: "https://drive.google.com/file/d/1p9IfN3CbunX-GzqSoSeV5JnLeWwFCTXT/view?usp=sharing"
     }
 
 };

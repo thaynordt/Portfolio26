@@ -18,6 +18,33 @@ const dadosAtividades = {
         competencias: ["H4 e H14"],
         imagem: "atividades/capa-game.png",
         link: "https://wordwall.net/pt/resource/108146184"
+    },
+
+     atividade5: {
+        titulo: "RED 1000",
+        grupo: "Thaylla, Naiara, Marcus, Vitor e Carolina",
+        descricao: "Na atividade, realizamos uma redação na plataforma RED1000, seguindo o modelo de dissertação do ENEM. Primeiro, escrevemos o texto à mão e, depois, digitamos a versão final na plataforma. O tema abordado foi “Os perigos do autodiagnóstico de transtornos mentais nas redes sociais no Brasil”, com prazo de duas aulas para realizar todo o processo.",
+        competencias: ["H22"],
+        imagem: "atividades/red.png",
+        link: "https://drive.google.com/file/d/1uSu2oRTAdKqhaF-KOtuByULsyaMM07w6/view"
+    },
+
+     atividade4: {
+        titulo: "Que tipo de arte você consome?",
+        grupo: "Thaylla",
+        descricao: "Nesta atividade, produzimos individualmente um texto em inglês sobre nosso artista, filme e música favoritos. Pesquisamos informações sobre cada um e explicamos os motivos das nossas escolhas, praticando o Simple Past e adicionando imagens ao trabalho para incluí-lo no portfólio.",
+        competencias: ["H25"],
+        imagem: "atividades/capa-ingles.png",
+        link: "https://docs.google.com/document/d/1kNQ4IbH3cFcBOnsuJ7lIVFL7MHQSiq-HsE1ZZg5hD-E/edit?usp=sharing"
+    },
+
+    atividade3: {
+        titulo: "Manifesto Antropófago e Manifesto Pau-Brasil",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nessa atividade, estudamos o gênero manifesto a partir do Manifesto Pau-Brasil e do Manifesto Antropófago, de Oswald de Andrade. Em grupo, criamos um manifesto contemporâneo em formato de vídeo, escolhendo um tema atual e utilizando argumentos, criatividade e frases de impacto. A atividade também envolveu a criação de roteiro, produção e edição do vídeo, buscando provocar reflexão no público.",
+        competencias: ["H3 e H24"],
+        imagem: "atividades/capa-manifesto.png",
+        link: "https://www.youtube.com/watch?v=Z9Gvr4Xk5N8&feature=youtu.be"
     }
 
 };

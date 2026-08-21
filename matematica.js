@@ -26,11 +26,24 @@ const dadosAtividades = {
 ],
         imagem: "atividades/capa-jogobanca.png",
         link: "https://jogo-mtm-probabilidade.netlify.app/"
+    },
+
+    atividade3: {
+        titulo: "Apresentação Estatística",
+        grupo: "Thaylla, Naiara, Marcus, Vitor e Carolina",
+        descricao: "Nesta atividade, realizamos uma apresentação estatística, trabalhando com dados e informações por meio de tabelas e gráficos. Analisamos os dados, calculamos medidas estatísticas e utilizamos recursos tecnológicos para facilitar a interpretação e a apresentação das informações.",
+        competencias: [
+    "C4 - Analisar e investigar dados e informações de natureza científica e social, articulando diferentes áreas do conhecimento, compreendendo representações gráficas e uso de modelos matemáticos, realizando inferências, previsões e tendências, para tomadas de decisão.",
+    "H 28 - Calcular medidas de tendência central e de dispersão de um conjunto de dados para aplicá-las e analisá-las em situações diversas no contexto das ciências, das tecnologias, das atividades pessoais e profissionais.",
+    "H 27 -Compreender informações estatísticas provenientes de naturezas distintas (social, econômica, política ou científica) e formular juízos com base nessas informações.",
+    "H 29- Construir tabelas e gráficos com recursos tecnológicos que permitam simplificar cálculos, facilitar a leitura e a compreensão das informações, para análise da realidade."
+],
+        imagem: "atividades/capa-genero.png",
+        link: "https://www.canva.com/design/DAHMvVMhxs4/pfkG2Pi9wrB_g9LitwDWnQ/edit?utm_content=DAHMvVMhxs4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     }
 
 };
 
-// 2. LÓGICA DO FILTRO DE TRIMESTRE
 const botoesTri = document.querySelectorAll('.btn-tri');
 const cards = document.querySelectorAll('.card');
 

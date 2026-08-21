@@ -27,10 +27,42 @@ const dadosAtividades = {
         competencias: ["C2 - H8, H10, H12"],
         imagem: "atividades/capa-imperialismo.png",
         link: "https://drive.google.com/file/d/15o_swbtFP1ozy8yIRKzRkaeeoc07c9Fi/view?usp=sharing"
+    },
+
+    atividade4: {
+        titulo: "Dossiê Histórico com Análise de Fonte Primária ",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, realizamos um dossiê histórico sobre a Queda da França e a Resistência Britânica durante a Segunda Guerra Mundial. Pesquisamos o contexto dos acontecimentos, seus principais impactos e analisamos uma fonte primária relacionada ao tema, buscando compreender diferentes perspectivas sobre o período.",
+        competencias: ["Não foi informado as competencias e habilidades."],
+        imagem: "atividades/dossie.png",
+        link: "https://canva.link/32aebcv17g7lnt2"
+    },
+
+    atividade5: {
+        titulo: "Cinema e Totalitarismo ",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, estudamos o conceito de totalitarismo e suas principais características. Em dupla ou trio, escolhemos o filme Cruella para analisar como algumas práticas de poder, controle, manipulação e relações de dominação podem ser observadas na história. A partir do filme, preparamos uma breve apresentação, relacionando cenas e comportamentos dos personagens com os conceitos de totalitarismo estudados em sala.",
+        competencias: ["H10 – Compreender as transformações no mundo do trabalho, geradas por mudanças na ordem econômica.",
+            "H22 – Analisar, na perspectiva humana e social, as principais características e dinâmicas dos fluxos da sociedade.",
+            "H26 – Comparar pontos de vista e ações práticas do indivíduo ou grupo social em diferentes contextos.",
+            "H27 – Analisar hipóteses e questões ambientais, sociais, econômicas, políticas e culturais, a partir de leituras e debates."
+        ],
+        imagem: "atividades/cruella.png",
+        link: "https://canva.link/okgjtdhhz60cz2e"
+    },
+
+    atividade6: {
+        titulo: "Temas Contemporâneos",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, realizamos uma apresentação oral sobre o tema “O controle das redes sociais na China: proteção ou censura?”. Pesquisamos como o governo chinês controla e regulamenta o uso das redes sociais e discutimos os possíveis impactos dessas medidas na sociedade. Organizamos as informações em slides e apresentamos o tema de forma crítica, relacionando-o a questões políticas e sociais.",
+        competencias: ["H30 – Analisar as lutas sociais e conquistas obtidas no que se refere às mudanças nas legislações ou nas políticas públicas.",
+            "H39 – Relacionar o papel das instituições sociais às soluções para problemas políticos, econômicos, sociais e ambientais no contexto da sociedade brasileira e do mundo.",
+            "H40 – Analisar o processo de formação das instituições sociais e políticas, compreendendo seu papel na sociedade."        ],
+        imagem: "atividades/china.png",
+        link: "https://canva.link/qhtaaez7vo3ji2p"
     }
 };
 
-// 2. LÓGICA DO FILTRO DE TRIMESTRE
 const botoesTri = document.querySelectorAll('.btn-tri');
 const cards = document.querySelectorAll('.card');
 
