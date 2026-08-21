@@ -9,6 +9,39 @@ const dadosAtividades = {
         
         link: "https://docs.google.com/presentation/d/1LXQ-HIm5X-O32Pn53PUcMacIbhH999obLoxKB07pg-0/edit?usp=sharing"
     },
+
+    atividade2: {
+        titulo: "Acender Led",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Montamos um circuito com Arduino, tanto de forma online quanto física, utilizando um LED e um resistor. Programamos o Arduino para fazer o LED piscar, alternando entre ligado e desligado.",
+        competencias: ["Não foi informado"],
+        // OLHA A MUDANÇA AQUI (agora aponta para a pasta 'atividades' em vez de 'fotos'):
+        imagem: "atividades/capa-acender-led.png", 
+        
+        link: "https://drive.google.com/drive/folders/1AsU9YB32kq7QMUpBaaof8-be-7hzgHbL"
+    },
+
+    atividade3: {
+        titulo: "Acender Led com Botão",
+        grupo: "Thaylla, Naiara e Carolina.",
+        descricao: "Aprendemos a utilizar um push button com Arduino, simulando um circuito no Tinkercad para controlar um LED e entender como sinais físicos são transformados em comandos digitais.",
+        competencias: ["Não foi informado"],
+        // OLHA A MUDANÇA AQUI (agora aponta para a pasta 'atividades' em vez de 'fotos'):
+        imagem: "atividades/capa-acender-led-botao.png", 
+        
+        link: "https://drive.google.com/drive/folders/10HQuJY6AYhOlWWEn476ovB0clfXWihIR"
+    },
+
+    atividade4: {
+        titulo: "Semáforo",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, montamos um semáforo utilizando Arduino UNO, protoboard, LEDs, resistores e jumpers. Programamos os LEDs para acender e apagar em uma sequência, simulando o funcionamento de um semáforo.",
+        competencias: ["Não foi informado"],
+        // OLHA A MUDANÇA AQUI (agora aponta para a pasta 'atividades' em vez de 'fotos'):
+        imagem: "atividades/capa-semaphore.png", 
+        
+        link: "https://drive.google.com/drive/folders/1Lg8g0b5Qan18tFbEh1QYxhgveNTujNhl"
+    }
 };
 
 // 2. LÓGICA DO FILTRO DE TRIMESTRE
