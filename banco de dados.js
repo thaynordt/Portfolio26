@@ -8,6 +8,15 @@ const dadosAtividades = {
         imagem: "atividades/capa-grandprix.png", 
         
         link: "https://docs.google.com/presentation/d/1LXQ-HIm5X-O32Pn53PUcMacIbhH999obLoxKB07pg-0/edit?usp=sharing"
+    },
+
+    atividade2: {
+        titulo: "Gateway de Pagamento",
+        grupo: "Thaylla, Marcus, Naiara, Vitor e Carolina",
+        descricao: "Desenvolvemos o Gateway de Pagamento, um sistema que permite processar transações financeiras de forma segura e eficiente. O objetivo é oferecer uma solução completa para integração com diferentes meios de pagamento, garantindo a melhor experiência para os usuários.",
+        competencias: ["Não foi informado"],
+        imagem: "atividades/rinha.png",
+        link: "https://desafio-bp.netlify.app/"
     }
 };
 
