@@ -60,6 +60,33 @@ const dadosAtividades = {
             "H40 – Analisar o processo de formação das instituições sociais e políticas, compreendendo seu papel na sociedade."        ],
         imagem: "atividades/china.png",
         link: "https://canva.link/qhtaaez7vo3ji2p"
+    },
+
+    atividade7: {
+        titulo: "Brasil dos anos de 1950",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, participamos da elaboração de uma apresentação sobre o Brasil na década de 1950, abordando as transformações econômicas, políticas, sociais e culturais da época. Minha participação envolveu a pesquisa e organização das informações, a criação de uma linha do tempo dos presidentes e a seleção de imagens para ilustrar os costumes e o cotidiano da sociedade brasileira nos anos 50.",
+        competencias: ["Não foi informada as competencias da atividade"],
+        imagem: "atividades/brdosanosde1950.png",
+        link: "https://canva.link/53yv21ymo00cqit"
+    },
+
+    atividade8: {
+        titulo: "República Liberal",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, realizamos uma pesquisa sobre os governos brasileiros durante a República Liberal (1945–1964). Minha participação envolveu a investigação dos presidentes do período e a organização dos principais pontos positivos e negativos de cada governo, contribuindo para compreender as transformações políticas, econômicas e sociais do Brasil antes da ditadura militar.",
+        competencias: ["Não foi informada as competencias da atividade"],
+        imagem: "atividades/repulica-liberal.png",
+        link: "https://docs.google.com/document/d/1ZONYDLGd4Ox82RXXC38fd2zkwIH8_NoASoAohVB8UPA/edit?usp=sharing"
+    },
+
+    atividade9: {
+        titulo: "ImaginAção",
+        grupo: "Thaylla, naiara, carolina, vitor e marcus",
+        descricao: "Nesta atividade, participamos de uma pesquisa sobre o consumo no mundo virtual e a influência dos algoritmos nos comportamentos digitais. Minha participação envolveu a análise de fontes, o registro de informações relevantes e a organização das ideias principais, contribuindo para compreender como as tecnologias digitais influenciam nossas escolhas e hábitos de consumo.",
+        competencias: ["Não foi informada as competencias da atividade"],
+        imagem: "atividades/ImaginAção.png",
+        link: "https://canva.link/phsyvdq24tqymf6"
     }
 };
 

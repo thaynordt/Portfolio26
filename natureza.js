@@ -79,6 +79,32 @@ const dadosAtividades = {
 "H23 – Formular propostas de alcance individual ou coletivo, utilizando como critérios a preservação e a promoção da saúde individual e coletiva."],
         imagem: "atividades/capa-mural.png",
         link: "https://drive.google.com/file/d/1p9IfN3CbunX-GzqSoSeV5JnLeWwFCTXT/view?usp=sharing"
+    },
+
+    atividade7: {
+        titulo: " CICLOS BIOGEOQUÍMICOS",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, participamos da criação de um painel científico sobre os ciclos biogeoquímicos e a mortandade de peixes. Minha participação envolveu a pesquisa e organização das informações, compreendendo as causas do desequilíbrio ambiental e a importância de ações sustentáveis para preservar os ecossistemas aquáticos.",
+        competencias: ["C1- Compreender as ciências naturais e as tecnologias como construções humanas associadas à cultura dos povos e suas visões de mundo.",
+"H4- Identificar, em textos, diagramas, gráficos, imagens e tabelas, informações relevantes para compreender um fenômeno ou conceito relacionado às Ciências da Natureza.",
+"C2 –Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da investigação científica.",
+"H11- Empregar procedimentos e práticas de observação, levantamento de hipótese, experimentação, coleta de dados e conclusões para resolução de problemas relacionados às Ciências da Natureza.",
+"C5 –Determinar as características das tecnologias associadas às Ciências da Natureza aplicadas em diferentes serviços ou contextos.",
+"H24- Descrever as propriedades físicas, químicas e/ou biológicas dos materiais relacionando-os às finalidades as quais que se destinam."],
+        imagem: "atividades/painel-3tri.png",
+        link: "https://drive.google.com/file/d/1BIvDJCCcElWFgTi72cG4fKpkRqDF0H5b/view?usp=sharing"
+    },
+
+    atividade8: {
+        titulo: "MAGNETISMO NO MUNDO REAL",
+        grupo: "Thaylla e Marcus",
+        descricao: "Nesta atividade, participamos da criação de um infográfico científico sobre o magnetismo no mundo real, utilizando o fogão de indução como exemplo de aplicação tecnológica. Minha participação envolveu a pesquisa e organização das informações sobre seu funcionamento, propriedades magnéticas e o cientista relacionado, além da elaboração de um esquema explicativo para facilitar a compreensão do conteúdo.",
+        competencias: ["C5 - Determinar as características das tecnologias associadas às Ciências da Natureza aplicadas em diferentes serviços ou contextos produtivos: indústria, manufatura, agricultura, agroindústria, extrativismo.",
+"H26 - Utilizar manuais para conhecer os processos de instalação e operação de diferentes equipamentos.",
+"H27 - Executar testes de controle para a comparação de serviços, materiais e produtos, utilizando parâmetros como custo e eficiência, empregabilidade, efeito colateral, riscos e benefícios.",
+"H28 - Reconhecer e utilizar nomenclatura e códigos científicos e tecnológicos para caracterizar materiais, substâncias e processos."],
+        imagem: "atividades/fogao-de-inducao.jpg",
+        link: "https://drive.google.com/file/d/15ikPAQrNLCzomzrjNYdIQQ_-MbQ-Knzh/view?usp=sharing"
     }
 
 };
