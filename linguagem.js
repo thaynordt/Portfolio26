@@ -45,6 +45,26 @@ const dadosAtividades = {
         competencias: ["H3 e H24"],
         imagem: "atividades/capa-manifesto.png",
         link: "https://www.youtube.com/watch?v=Z9Gvr4Xk5N8&feature=youtu.be"
+    },
+
+    atividade6: {
+        titulo: "Silver Whisper",
+        grupo: "Thaylla, Vitor, Marcus, Naiara e Carolina",
+        descricao: "Nesta atividade, desenvolvemos uma narrativa investigativa interativa inspirada no álbum de 1973 da banda Secos & Molhados. Pesquisamos o contexto histórico e musical, criamos uma história com diferentes caminhos e finais e utilizamos recursos tecnológicos para construir um site interativo, integrando literatura, música e criatividade.",
+        competencias: ["C3 - Articular aspectos das identidades em textos e manifestações artísticas e culturais, considerando as práticas sociais e as linguagens utilizadas.",
+            "H15 - Produzir trabalhos individuais e coletivos, explorando materiais e técnicas ligados ao universo das composições artísticas e de práticas corporais."],
+        imagem: "atividades/silver.png",
+        link: "https://silverwhisper.netlify.app/"
+    },
+
+    atividade7: {
+        titulo: "Redação Imagine",
+        grupo: "Thaylla",
+        descricao: "Não fui no dia por conta de atestado, então não realizei a atividade e não fui informada pelos meus colegas que teve algo",
+        competencias: ["C4 - Produzir textos orais e escritos, utilizando-os como meio de acesso e permanência no mundo do trabalho, respondendo aos diferentes propósitos da comunicação.",
+            "H22 - Produzir textos técnicos de acordo com uma estrutura estabelecida."],
+        imagem: "atividades/redacao-imagine.png",
+        link: "https://plataforma.enem.com.br/student/essays?revision_essay_id=11471234&is_revision_id=false"
     }
 
 };

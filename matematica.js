@@ -40,6 +40,19 @@ const dadosAtividades = {
 ],
         imagem: "atividades/capa-genero.png",
         link: "https://www.canva.com/design/DAHMvVMhxs4/pfkG2Pi9wrB_g9LitwDWnQ/edit?utm_content=DAHMvVMhxs4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+
+     atividade5: {
+        titulo: "TMNVC 360",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Nesta atividade, desenvolvemos um ciclo trigonométrico interativo, aplicando conceitos de trigonometria na criação de um material pedagógico. Realizamos o planejamento, o esboço e a construção do protótipo, utilizando tecnologia e impressão 3D para facilitar o aprendizado.",
+        competencias: [
+    "C2 -Reconhecer e utilizar a linguagem algébrica e suas representações como a linguagem das ciências, necessária para expressar a relação entre grandezas e criar modelos descritivos permitindo conexões da matemática, com em fenômenos, sistemas naturais e tecnológicos.",
+    "H 5- Ler e interpretar diferentes linguagens e representações envolvendo variações de grandezas;",
+    "H 16- Compreender e construir modelos que correspondem a fenômenos periódicos."
+],
+        imagem: "atividades/tmnvc.png",
+        link: "https://docs.google.com/document/d/1r2-UCiVTo0go3JIz91DNRmnSCkMMBGBFAdh_a21of84/edit?tab=t.0"
     }
 
 };
