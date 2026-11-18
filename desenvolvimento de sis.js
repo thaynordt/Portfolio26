@@ -7,7 +7,17 @@ const dadosAtividades = {
         competencias: ["Não foi informado"],
         imagem: "fotos/gateyay.png",
         link: "https://github.com/Marcus-Verissimo-Bastos/RinhaSenai2026FullStack"
+    },
+
+    atividade2: {
+        titulo: "Hackaton",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Desenvolvemos uma proposta para conectar os interesses dos jovens às marcas e empresas, aproximando o público das oportunidades de tecnologia e inovação. O objetivo é criar estratégias que incentivem o patrocínio de conteúdos tecnológicos na televisão, tornando-os mais atrativos, acessíveis e relevantes para a nova geração.",
+        competencias: ["Não foi informado"],
+        imagem: "fotos/emotion.png",
+        link: "https://youtu.be/IvHSwjKtGNE"
     }
+
 };
 
 const botoesTri = document.querySelectorAll('.btn-tri');

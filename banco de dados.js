@@ -4,7 +4,6 @@ const dadosAtividades = {
         grupo: "Thaylla, Marcus, Naiara, Vitor e Carolina",
         descricao: "Desenvolvimento de uma solução sustentável, inovadora e tecnicamente viável, baseada nos princípios dos 3Rs, reduzir, reusar e reciclar. A proposta será apresentada por meio de um relatório técnico completo e um pitch estruturado, evidenciando o potencial de redução da pegada de carbono do componente e sua aplicação prática na indústria automotiva.",
         competencias: ["Não foi informado"],
-        // OLHA A MUDANÇA AQUI (agora aponta para a pasta 'atividades' em vez de 'fotos'):
         imagem: "atividades/capa-grandprix.png", 
         
         link: "https://docs.google.com/presentation/d/1LXQ-HIm5X-O32Pn53PUcMacIbhH999obLoxKB07pg-0/edit?usp=sharing"
