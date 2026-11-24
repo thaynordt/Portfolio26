@@ -1,12 +1,12 @@
 const dadosAtividades = {
     
  atividade1: {
-        titulo: "Estulanches",
+        titulo: "Hackaton",
         grupo: "Thaylla, Naiara e Carolina",
-        descricao: "Desenvolvemos o EstuLanches, um sistema para gestão de cardápios e pedidos da cantina escolar. O objetivo é oferecer uma solução prática e eficiente, utilizando Docker para implantar a aplicação em ambiente de produção, garantindo seu funcionamento, segurança e possibilidade de expansão para atender um grande número de usuários.",
+        descricao: "Desenvolvemos uma proposta para conectar os interesses dos jovens às marcas e empresas, aproximando o público das oportunidades de tecnologia e inovação. O objetivo é criar estratégias que incentivem o patrocínio de conteúdos tecnológicos na televisão, tornando-os mais atrativos, acessíveis e relevantes para a nova geração.",
         competencias: ["Não foi informado"],
-        imagem: "fotos/estulanches.png",
-        link: "https://github.com/thaynordt/estulanches"
+        imagem: "fotos/hackaton.png",
+        link: "https://youtu.be/IvHSwjKtGNE"
     }
 };
 

@@ -16,6 +16,15 @@ const dadosAtividades = {
         competencias: ["Não foi informado"],
         imagem: "atividades/rinha.png",
         link: "https://desafio-bp.netlify.app/"
+    },
+
+    atividade3: {
+        titulo: "Hackaton",
+        grupo: "Thaylla, Naiara e Carolina",
+        descricao: "Desenvolvemos uma proposta para conectar os interesses dos jovens às marcas e empresas, aproximando o público das oportunidades de tecnologia e inovação. O objetivo é criar estratégias que incentivem o patrocínio de conteúdos tecnológicos na televisão, tornando-os mais atrativos, acessíveis e relevantes para a nova geração.",
+        competencias: ["Não foi informado"],
+        imagem: "fotos/hackaton.png",
+        link: "https://youtu.be/IvHSwjKtGNE"
     }
 };
 

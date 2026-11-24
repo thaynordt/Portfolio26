@@ -105,6 +105,18 @@ const dadosAtividades = {
 "H28 - Reconhecer e utilizar nomenclatura e códigos científicos e tecnológicos para caracterizar materiais, substâncias e processos."],
         imagem: "atividades/fogao-de-inducao.jpg",
         link: "https://drive.google.com/file/d/15ikPAQrNLCzomzrjNYdIQQ_-MbQ-Knzh/view?usp=sharing"
+    },
+
+    atividade9: {
+        titulo: "Destilação ALECRIM",
+        grupo: "Thaylla, Naiara A, Carolina, Vitor G, Gustavo G, João P, Nicolas e Ismael",
+        descricao: "Nesta atividade, participamos da produção de um projeto científico sobre a destilação do alecrim, relacionando conceitos de Química Orgânica à extração de óleos essenciais. Minha participação envolveu a pesquisa e organização das informações sobre a composição química da planta, suas propriedades e aplicações, além da realização do experimento de destilação por arraste a vapor, análise dos resultados e registro do processo em uma cartilha ilustrada.",
+        competencias: ["C5 - Determinar as características das tecnologias associadas às Ciências da Natureza aplicadas em diferentes serviços ou contextos produtivos: indústria, manufatura, agricultura, agroindústria, extrativismo.",
+"H12 – Relacionar informações para construir modelos em Ciência e Tecnologia.",
+"H24 – Descrever propriedades físicas, químicas e/ou biológicas dos materiais, relacionando-as às suas finalidades.",
+"H25 – Identificar matérias-primas e etapas de transformação, descrevendo processos físicos, químicos e/ou biológicos."],
+        imagem: "atividades/destilacaoalecrim.png",
+        link: "https://drive.google.com/file/d/1-7Ddvacj0Haifs7ghKnuDsHlxJmnuaMB/view?usp=sharing"
     }
 
 };
