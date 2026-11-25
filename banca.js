@@ -1,6 +1,4 @@
-/* =========================================
-   CARROSSÉIS
-   ========================================= */
+
 let pos1 = 0;
 let pos2 = 0;
 
@@ -40,12 +38,7 @@ function moverCarrossel2(direcao) {
     track.style.transform = `translateX(${pos2}px)`;
 }
 
-/* =========================================
-   ATIVIDADES (tudo fica nesta página)
-   Para cada atividade, troque os "xxxxx":
-   imagem: "atividades/xxxxx.png"
-   link:   "xxxxx"
-   ========================================= */
+
 const MATERIAS = {
     humanas: {
         titulo: "Humanas",
@@ -56,8 +49,8 @@ const MATERIAS = {
                 grupo: "Thaylla, Marcus Vinicius e João Pedro",
                 descricao: "A atividade consistia em refletir sobre os meios de comunicação no início do século XX e criar a capa de um jornal da época. O grupo escolheu a Batalha de Somme (01 de julho de 1916), o dia mais mortal do exército britânico.",
                 competencias: ["C3 - H15, H16, H20", "C6 - H39"],
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "banca/capa-guerra.png",
+                link: "https://drive.google.com/file/d/1sOWJ9BT3DnYEtA_66_QcbUGTtoviuPrS/view?usp=sharinghttps://drive.google.com/file/d/1sOWJ9BT3DnYEtA_66_QcbUGTtoviuPrS/view?usp=sharing"
             },
             {
                 ano: "2º ano",
@@ -65,8 +58,8 @@ const MATERIAS = {
                 objetivo: "Produzir e apresentar um Livreto Turístico Digital sobre a Argélia, atuando como uma equipe de guias especializados desse país. A proposta faz parte da Expedição Cultural & Geográfica: Embaixadores Turísticos do Continente Africano, cujo foco é celebrar o Mês da Consciência Negra por meio da valorização da diversidade cultural, histórica e geográfica do continente.",
                 competencias: ["H26 e H27"],
                 comentario: "A experiência de pesquisar sobre a Argélia foi muito enriquecedora. Ao montar o livreto turístico, pude conhecer mais sobre sua cultura, paisagens, história e formas de organização social. Gostei especialmente de perceber como o país vai muito além dos estereótipos, revelando um patrimônio imenso e diverso. Criar a apresentação como se eu fosse uma guia turística tornou o processo ainda mais envolvente, permitindo imaginar como seria apresentar essas descobertas para outras pessoas. Foi uma atividade divertida, criativa e cheia de aprendizados.",
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "banca/argelia.png",
+                link: "https://drive.google.com/file/d/1bhZk1OYluj-F9gqGwXIzgsz7AAga6s_b/view"
             }
         ]
     },
@@ -109,8 +102,8 @@ const MATERIAS = {
                     "H24 – Descrever propriedades físicas, químicas e/ou biológicas dos materiais, relacionando-as às suas finalidades.",
                     "H25 – Identificar matérias-primas e etapas de transformação, descrevendo processos físicos, químicos e/ou biológicos."
                 ],
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "banca/oleo.png",
+                link: "https://canva.link/1zbure3pbiljx58"
             },
             {
                 ano: "2º ano",
@@ -152,10 +145,8 @@ const MATERIAS = {
         ]
     },
 
-    /* ---------- TÉCNICO ---------- */
-
-    modelagem: {
-        titulo: "Tecnico",
+    tecnico: {
+        titulo: "Técnico",
         atividades: [
             {
                 ano: "3º ano",
@@ -163,17 +154,25 @@ const MATERIAS = {
                 grupo: "Thaylla, Marcus, Naiara, Vitor e Carolina",
                 descricao: "Na SA de Modelagem de Sistemas, desenvolvemos a Vybe, uma empresa inovadora na qual você encontra pessoas e lugares que combinam com a sua vibe e estilo. A proposta é conectar pessoas com interesses em comum e indicar ambientes que tenham a mesma energia que você procura, permitindo dar match, conhecer novas pessoas, visitar lugares e viver experiências mais alinhadas com sua personalidade.",
                 competencias: [],
+                imagem: "banca/vybe.png",
+                link: "https://canva.link/eadr01cnfd4q1bz"
+            },
+        
+            {
+                ano: "2º ano",
+                titulo: "Site de receitas",
+                objetivo: "Desenvolver um site de receitas utilizando HTML e CSS como primeiro contato com desenvolvimento web. O projeto teve como objetivo aprender a estruturar páginas, aplicar estilos básicos e criar um layout funcional, permitindo que os usuários visualizem diferentes receitas disponíveis.",
+                competencias: ["H1, H4"],
+                comentario: "Foi uma experiência legal e desafiadora. Aprendemos a organizar o conteúdo e estilizar as páginas. Ver o site funcionando no final foi muito gratificante e incentivou a seguir aprendendo.",
                 imagem: "atividades/xxxxx.png",
                 link: "xxxxx"
             }
+            
         ]
-    },
-
+    }
 };
 
-/* =========================================
-   PAINEL DE ATIVIDADES (abre na própria página)
-   ========================================= */
+
 const painel = document.getElementById('painel');
 const painelTitulo = document.getElementById('painel-titulo');
 const painelCorpo = document.getElementById('painel-corpo');
