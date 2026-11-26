@@ -73,8 +73,8 @@ const MATERIAS = {
                 grupo: "Thaylla, Naiara e Carolina",
                 descricao: "Nessa atividade, estudamos o gênero manifesto a partir do Manifesto Pau-Brasil e do Manifesto Antropófago, de Oswald de Andrade. Em grupo, criamos um manifesto contemporâneo em formato de vídeo, escolhendo um tema atual e utilizando argumentos, criatividade e frases de impacto. A atividade também envolveu a criação de roteiro, produção e edição do vídeo, buscando provocar reflexão no público.",
                 competencias: ["H3 e H24"],
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "atividades/capa-manifesto.png",
+                link: "https://www.youtube.com/watch?v=Z9Gvr4Xk5N8&feature=youtu.be"
             },
             {
                 ano: "2º ano",
@@ -82,8 +82,8 @@ const MATERIAS = {
                 objetivo: "Pesquisar e apresentar informações sobre o povo Karajá, conhecendo melhor sua cultura, língua, crenças, tradições e localização geográfica, e criar um site para compartilhar esse conhecimento com outras pessoas.",
                 competencias: ["H4, H14, H17"],
                 comentario: "Pesquisando sobre os Karajá, aprendi muita coisa que eu não fazia ideia. Descobri que eles vivem principalmente às margens do Rio Araguaia, em estados como Tocantins, Goiás, Mato Grosso e Pará. O mais interessante foi ver como eles mantêm viva a língua Iny Karajá, que é ensinada desde cedo às crianças. Me chamou atenção também o cuidado que eles têm com a natureza, a força das mulheres na cultura e os rituais tradicionais, como as festas de iniciação.",
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "banca/karaja.png",
+                link: "https://sites.google.com/estudante.sesisenai.org.br/povoskarajas/in%C3%ADcio"
             }
         ]
     },
@@ -111,8 +111,8 @@ const MATERIAS = {
                 objetivo: "Investigar como estruturas e organismos da natureza podem inspirar a criação de novos materiais tecnológicos, com foco em soluções sustentáveis. A partir de temas como oceano, rios, deserto e floresta, os grupos criaram propostas de materiais inovadores, considerando propriedades como resistência, flexibilidade e durabilidade. A atividade envolveu pesquisa, desenvolvimento de conceitos e modelagem 3D dos projetos.",
                 competencias: [],
                 comentario: "Achei a proposta muito interessante! É legal perceber como a natureza pode inspirar soluções tecnológicas e sustentáveis. Foi desafiador pensar em um material totalmente novo, mas trabalhar em grupo ajudou bastante. Criar o modelo 3D foi uma das partes mais legais, porque deu pra visualizar nossa ideia ganhando forma.",
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "banca/lotus.png",
+                link: "https://canva.link/k2ead0ebfhx2com"
             }
         ]
     },
@@ -130,8 +130,8 @@ const MATERIAS = {
                     "H5 - Ler e interpretar diferentes linguagens e representações envolvendo variações de grandezas.",
                     "H16 - Compreender e construir modelos que correspondem a fenômenos periódicos."
                 ],
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "atividades/tmnvc.png",
+                link: "https://docs.google.com/document/d/1r2-UCiVTo0go3JIz91DNRmnSCkMMBGBFAdh_a21of84/edit?tab=t.0"
             },
             {
                 ano: "2º ano",
@@ -139,8 +139,8 @@ const MATERIAS = {
                 objetivo: "Iniciar a produção dos Papers Craft, aplicando conceitos de geometria plana para construir objetos tridimensionais.",
                 competencias: ["C3, H18"],
                 comentario: "A atividade foi muito interessante, pois uniu teoria e prática, facilitando a compreensão da geometria por meio da construção e montagem dos personagens. Uma ótima forma de aprender de maneira criativa e envolvente!",
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+                imagem: "banca/paper.png",
+                link: "https://www.canva.com/design/DAGwtPTsYeU/CiAHgqG1LfczIPi94z23Kw/view?embed"
             }
         ]
     },
@@ -160,12 +160,12 @@ const MATERIAS = {
         
             {
                 ano: "2º ano",
-                titulo: "Site de receitas",
-                objetivo: "Desenvolver um site de receitas utilizando HTML e CSS como primeiro contato com desenvolvimento web. O projeto teve como objetivo aprender a estruturar páginas, aplicar estilos básicos e criar um layout funcional, permitindo que os usuários visualizem diferentes receitas disponíveis.",
-                competencias: ["H1, H4"],
-                comentario: "Foi uma experiência legal e desafiadora. Aprendemos a organizar o conteúdo e estilizar as páginas. Ver o site funcionando no final foi muito gratificante e incentivou a seguir aprendendo.",
-                imagem: "atividades/xxxxx.png",
-                link: "xxxxx"
+titulo: "Glossário Técnico",
+objetivo: "Desenvolver um site autoral utilizando HTML e CSS para apresentar um glossário técnico com explicações sobre tags HTML e propriedades CSS. O projeto teve como objetivo facilitar a consulta e o aprendizado dos conceitos de desenvolvimento web, por meio de exemplos práticos, organização do conteúdo e um layout intuitivo.",
+competencias: ["H5, H8"],
+comentario: "Foi uma experiência muito interessante desenvolver um site do zero e colocar em prática os conhecimentos de HTML e CSS. Aprendemos a organizar as informações, criar exemplos de código e desenvolver um layout próprio. O maior desafio foi deixar o site bonito, organizado e funcional, mas ver tudo funcionando no final foi muito gratificante. Também foi uma oportunidade de desenvolver nossa criatividade e aprofundar os conhecimentos em programação.",
+imagem: "banca/glossario.png",
+link: "https://siteglossariotecnico.netlify.app/"
             }
             
         ]

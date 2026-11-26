@@ -7,200 +7,68 @@
     <link rel="stylesheet" href="banca.css">
     <link rel="icon" type="image/png" sizes="32x32" href="fotos/logo thay.png">
     <link rel="shortcut icon" href="fotos/logo thay.png" type="image/png">
-
-    <style>
-
-body.painel-aberto { overflow: hidden; }
-
-        .painel {
-            position: fixed;
-            inset: 0;
-            z-index: 100;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            background: rgba(19, 3, 3, 0.82);
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
-        }
-        .painel[hidden] { display: none; }
-
-        .painel-caixa {
-            position: relative;
-            width: 100%;
-            max-width: 980px;
-            max-height: 90vh;
-            display: flex;
-            flex-direction: column;
-            background: #fff9e9;
-            color: #2a0505;
-            border-radius: 10px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        .painel-topo {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
-            padding: 18px 28px;
-            border-bottom: 1px solid rgba(59, 4, 4, 0.2);
-        }
-        .painel-topo h3 {
-            font-size: 1.6rem;
-            color: #3b0404;
-        }
-
-        .painel-fechar {
-            background: none;
-            border: none;
-            font-size: 2.2rem;
-            line-height: 1;
-            color: #7d0606;
-            cursor: pointer;
-            padding: 0 6px;
-        }
-        .painel-fechar:hover { color: #3b0404; }
-
-        .painel-corpo {
-            overflow-y: auto;
-            padding: 24px 28px 32px;
-            display: flex;
-            flex-direction: column;
-            gap: 28px;
-        }
-
-        .painel-vazio {
-            text-align: center;
-            padding: 40px 0;
-            color: #7d0606;
-        }
-
-        .ativ {
-            display: grid;
-            grid-template-columns: 280px 1fr;
-            gap: 24px;
-            padding-bottom: 28px;
-            border-bottom: 1px solid rgba(59, 4, 4, 0.2);
-        }
-        .ativ:last-child { border-bottom: none; padding-bottom: 0; }
-
-        .ativ-img {
-            width: 100%;
-            aspect-ratio: 4 / 3;
-            object-fit: cover;
-            border-radius: 6px;
-            background: #3b0404;
-        }
-        .ativ-img-vazia {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: rgba(254, 251, 233, 0.6);
-            font-size: 0.9rem;
-        }
-
-        .ativ-ano {
-            display: inline-block;
-            padding: 2px 12px;
-            border-radius: 20px;
-            background: #3b0404;
-            color: #fff9e9;
-            font-size: 0.8rem;
-            margin-bottom: 8px;
-        }
-        .ativ-texto h4 { font-size: 1.35rem; color: #3b0404; margin-bottom: 6px; }
-        .ativ-texto h5 { font-size: 0.95rem; color: #7d0606; margin: 14px 0 4px; }
-        .ativ-texto p,
-        .ativ-texto li { font-size: 0.95rem; line-height: 1.6; }
-        .ativ-texto ul { padding-left: 20px; }
-        .ativ-grupo { margin-bottom: 4px; }
-
-        .ativ-link {
-            display: inline-block;
-            margin-top: 16px;
-            padding: 8px 20px;
-            border-radius: 5px;
-            background: #3b0404;
-            color: #fff9e9;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: background 0.3s;
-        }
-        .ativ-link:hover { background: #7d0606; }
-
-        @media (max-width: 720px) {
-            .ativ { grid-template-columns: 1fr; }
-            .painel-topo, .painel-corpo { padding-left: 18px; padding-right: 18px; }
-        }
-    </style>
 </head>
 <body>
 
-    <div class="container">
+    <header class="topo">
         <div class="logo"><img src="fotos/logo bordo.png" alt="Thaylla logo"></div>
         <nav aria-label="Navegação principal">
-            <a href="index.html">INÍCIO</a> <span>|</span>
-            <a href="#infos1">SOBRE</a> <span>|</span>
-            <a href="projetos.html">PROJETOS</a> <span>|</span>
-            <a href="certificado.html">CERTIFICADO</a> <span>|</span>
-            <a href="banca.html">BANCA PORTFÓLIO</a>
+            <a href="index.html">Início</a>
+            <a href="index.html#infos1">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="certificado.html">Certificado</a>
+            <a href="banca.html" aria-current="page">Banca Portfólio</a>
         </nav>
-    </div>
+    </header>
 
-    <section class="secao-materias">
-        <h2 class="titulo-materias">Banca Portfólio</h2>
+    <main>
+        <section class="intro">
+            <h1>Banca Portfólio</h1>
+            <p>Atividades do 2º e do 3º ano, reunidas por área de conhecimento. Escolha uma matéria para ver os trabalhos.</p>
+        </section>
 
-        <div class="grade-cards">
-            <button class="seta-navegacao" onclick="moverCarrossel(-1)" aria-label="Anterior">&#10094;</button>
-            <div class="carousel-window">
-                <div class="carousel-track" id="track1">
-                    <div class="card-materia">
-                        <img src="fotos/humanas.png" alt="humanas">
-                        <a href="#" class="btn-materia" data-materia="humanas">Ver mais</a>
-                    </div>
-
-                    <div class="card-materia">
-                        <img src="fotos/linguagens.png" alt="linguagens">
-                        <a href="#" class="btn-materia" data-materia="linguagens">Ver mais</a>
-                    </div>
-
-                    <div class="card-materia">
-                        <img src="fotos/natureza.png" alt="natureza">
-                        <a href="#" class="btn-materia" data-materia="natureza">Ver mais</a>
-                    </div>
-
-                   
+        <section class="materias" aria-label="Matérias">
+            <article class="card-materia">
+                <img src="banca/capa-hum-banca.png" alt="Humanas">
+                <div class="card-rodape">
+                    <span>Humanas</span>
+                    <a href="#" class="btn-materia" data-materia="humanas">Ver mais</a>
                 </div>
-            </div>
-            <button class="seta-navegacao" onclick="moverCarrossel(1)" aria-label="Próximo">&#10095;</button>
-        </div>
-    </section>
+            </article>
 
-    <section class="secao-materias">
-
-        <div class="grade-cards">
-            <button class="seta-navegacao" onclick="moverCarrossel2(-1)" aria-label="Anterior">&#10094;</button>
-            <div class="carousel-window">
-                <div class="carousel-track" id="track2">
-                    <div class="card-materia">
-                        <img src="fotos/tecnicoft.png" alt="tecnico">
-                        <a href="#" class="btn-materia" data-materia="tecnico">Ver mais</a>
-                    </div>
-
-                     <div class="card-materia">
-                        <img src="fotos/matemática.png" alt="matemática">
-                        <a href="#" class="btn-materia" data-materia="matematica">Ver mais</a>
-                    </div>
-
-
+            <article class="card-materia">
+                <img src="banca/capa-lin-banca.png" alt="Linguagens">
+                <div class="card-rodape">
+                    <span>Linguagens</span>
+                    <a href="#" class="btn-materia" data-materia="linguagens">Ver mais</a>
                 </div>
-            </div>
-            <button class="seta-navegacao" onclick="moverCarrossel2(1)" aria-label="Próximo">&#10095;</button>
-        </div>
-    </section>
+            </article>
+
+            <article class="card-materia">
+                <img src="banca/capa-nat-banca.png" alt="Natureza">
+                <div class="card-rodape">
+                    <span>Natureza</span>
+                    <a href="#" class="btn-materia" data-materia="natureza">Ver mais</a>
+                </div>
+            </article>
+
+            <article class="card-materia">
+                <img src="banca/capa-tec-banca.png" alt="Técnico">
+                <div class="card-rodape">
+                    <span>Técnico</span>
+                    <a href="#" class="btn-materia" data-materia="tecnico">Ver mais</a>
+                </div>
+            </article>
+
+            <article class="card-materia">
+                <img src="banca/capa-mat-banca.png" alt="Matemática">
+                <div class="card-rodape">
+                    <span>Matemática</span>
+                    <a href="#" class="btn-materia" data-materia="matematica">Ver mais</a>
+                </div>
+            </article>
+        </section>
+    </main>
 
     <!-- Painel que mostra as atividades da matéria, sem sair da página -->
     <div class="painel" id="painel" hidden>
